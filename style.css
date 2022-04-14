@@ -1,4 +1,40 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+}
+fieldset#white {
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #666;
+    border-radius: 8px;
+}
+h1#title {
+    text-align: center;
+    color: gray;
+    font-size: 350%;
+}
+label#label1 {
+    margin-left: 30%;
+    margin-right: 10%;
+    font-size: 180%;
+}
+label#label2 {
+    margin-left: 30%;
+    margin-right: 9%;
+    font-size: 180%;
+}
+input#range1 {
+    width: 17%;
+}
+label#label3 {
+    margin-left: 30%;
+    margin-right: 9%;
+    font-size: 150%;
+}
+.p {
+    margin-left: 30%;
+    font-size: 120%;
+}
 
 
