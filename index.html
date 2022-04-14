@@ -1,16 +1,53 @@
-<html>
-    <head>
-    <script src="script.js"></script>
+<!DOCTYPE html>
+<head>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
+    <script src="script.js"></script>
+    <title>Web App - Simple Interest Calculator</title>
+</head>
+<body>
+    
+    <form>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+        <fieldset id = white>
+            
 
-        <button onclick="compute()">Compute</button>
-    </body>
+            <h1 id="title">Simple Interest Calculator</h1>
+
+            <label for="ammount" id="label1">ammount</label>
+            <input type="text" id="input1">
+
+            <br><br>
+
+            <label for="range" id="label2">intrestrate</label>
+            <input type="range" value="1" min="1" max="20" step="0.10" oninput="this.nextElementSibling.value = this.value" id="range1">
+            <output>0</output>%
+
+            <br><br>
+
+            <label for="numberofyears" id="label3">No. of Years</label>
+            <select id="years" onclick="quantity()"></select>
+
+            <br><br>
+
+            <input type="button" value="Compute intrest" onclick="calculate()" class="p"> 
+
+            <br><br>
+            <l1 class="p" id="p1"></l1>
+            <br>
+            <l1 class="p" id="p2"></l1>      
+            <br>                     
+            <l1 class="p" id="p3"></l1>
+            <br>
+            <l1 class="p" id="p4"></l1>
+
+            <br><br>
+            <l1>Ⓒ Everyone Can Get Rich</l1>
+            
+
+
+
+        </fieldset>
+       
+    </form>
+</body>
 </html>
